@@ -1,10 +1,10 @@
 /**
  * File: util/assert.js
  */
-function assert1(expected, actual){
+function assert(expected, actual){
    if (actual !== expected){
      console.log("expected " + expected + " but got " + actual);
    }
 }
 
-export var assert = assert1;
+export default (assert); // export default <expression>

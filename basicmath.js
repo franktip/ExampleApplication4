@@ -3,8 +3,10 @@
  */
 export let multiply = function (frst, second){
 	return frst * second;
-};
+}
 
-export var exponent = function (base, exp){
+var exponent = function (base, exp){ // export default let ...
 	return Math.pow(base, exp);
 };
+
+export default exponent;
